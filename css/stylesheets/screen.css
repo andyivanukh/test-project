@@ -1,0 +1,54 @@
+/* line 13, ../sass/screen.sass */
+body {
+  min-width: 320px;
+  height: 100%;
+  font-family: Tahoma, sans-serif;
+  font-size: 14px;
+  color: #0e4d66;
+  background: url(../../img/backgr.jpg) no-repeat -5px 0;
+  background-size: cover;
+}
+
+/* line 22, ../sass/screen.sass */
+html {
+  height: 100%;
+}
+
+/* line 25, ../sass/screen.sass */
+ol, ul {
+  list-style-type: none;
+}
+
+/* line 28, ../sass/screen.sass */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 36, ../sass/screen.sass */
+a, a:hover {
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+/* line 40, ../sass/screen.sass */
+a:focus {
+  outline: none;
+}
+
+/* line 43, ../sass/screen.sass */
+.clearfix:after,
+.clearfix:before {
+  content: "";
+  display: table;
+}
+
+/* line 51, ../sass/screen.sass */
+.wrapper {
+  margin: 0 auto;
+  width: 740px;
+}

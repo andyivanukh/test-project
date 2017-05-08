@@ -1,0 +1,55 @@
+$menu-lifz: 16px
+$menu-liff: Tahoma, sans-serif
+$menu-licol: #f1f1f1
+=bgcol($img, $type)
+	background: url(../../img/#{$img}.#{$type}) no-repeat -5px 0
+
+=float($direction)
+	float: $direction
+
+=txtalign($direct)
+	text-align: $direct
+
+body 
+	min-width: 320px
+	height: 100%
+	font-family: Tahoma, sans-serif
+	font-size: 14px
+	color: #0e4d66
+	+bgcol(backgr, jpg)
+	background-size: cover
+
+html
+	height: 100%
+
+ol, ul
+	list-style-type: none
+
+*
+	margin: 0
+	padding: 0
+	outline: none
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+
+a, a:hover
+	color: #f1f1f1
+	text-decoration: none
+
+a:focus
+	outline: none
+
+.clearfix:after,
+.clearfix:before
+	content: ""
+	display: table
+
+.clearfix:after
+	clear:both
+
+.wrapper
+	margin: 0 auto
+	width: 740px
+
+
