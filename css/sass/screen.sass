@@ -1,6 +1,7 @@
 $menu-lifz: 16px
 $menu-liff: Tahoma, sans-serif
 $menu-licol: #f1f1f1
+$txtcolor: #0e4d66
 =bgcol($img, $type)
 	background: url(../../img/#{$img}.#{$type}) no-repeat -5px 0
 
@@ -20,7 +21,6 @@ body
 	font-size: 14px
 	color: #0e4d66
 	+bgcol(backgr, jpg)
-	background-size: cover
 
 html
 	height: 100%
@@ -93,3 +93,18 @@ nav
 			letter-spacing: 1px
 			&:hover
 				text-decoration: none
+
+section
+	position: relative
+	width: 100%
+	height: 823px
+	background: #f3f3f3
+	border-radius: 10px
+	.name-block
+		padding-top: 45px
+		h1
+			margin-left: 70px
+			font-size: 24px
+			font-weight: bold
+			color: $txtcolor
+
