@@ -30,24 +30,18 @@ ol, ul {
 }
 
 /* line 36, ../sass/screen.sass */
-a, a:hover {
-  color: #f1f1f1;
-  text-decoration: none;
-}
-
-/* line 40, ../sass/screen.sass */
 a:focus {
   outline: none;
 }
 
-/* line 43, ../sass/screen.sass */
+/* line 39, ../sass/screen.sass */
 .clearfix:after,
 .clearfix:before {
   content: "";
   display: table;
 }
 
-/* line 51, ../sass/screen.sass */
+/* line 47, ../sass/screen.sass */
 .wrapper {
   margin: 0 auto;
   width: 740px;
