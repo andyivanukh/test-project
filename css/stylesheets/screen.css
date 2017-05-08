@@ -29,52 +29,72 @@ ol, ul {
   box-sizing: border-box;
 }
 
-/* line 36, ../sass/screen.sass */
-a, a:hover {
-  color: #f1f1f1;
-  text-decoration: none;
-}
-
-/* line 40, ../sass/screen.sass */
+/* line 37, ../sass/screen.sass */
 a:focus {
   outline: none;
 }
 
-/* line 43, ../sass/screen.sass */
+/* line 40, ../sass/screen.sass */
 .clearfix:after,
 .clearfix:before {
   content: "";
   display: table;
 }
 
-/* line 51, ../sass/screen.sass */
+/* line 48, ../sass/screen.sass */
 .wrapper {
   margin: 0 auto;
   width: 740px;
 }
-/* line 54, ../sass/screen.sass */
+/* line 51, ../sass/screen.sass */
 .wrapper header {
   margin-top: 49px;
 }
 
-/* line 57, ../sass/screen.sass */
+/* line 54, ../sass/screen.sass */
 .main-logo-block {
   margin: 0 auto;
   width: 300px;
 }
-/* line 60, ../sass/screen.sass */
+/* line 57, ../sass/screen.sass */
 .main-logo-block div {
   display: inline-block;
 }
 
-/* line 63, ../sass/screen.sass */
+/* line 60, ../sass/screen.sass */
 .logo-block {
   margin-left: 33px;
 }
 
-/* line 66, ../sass/screen.sass */
+/* line 63, ../sass/screen.sass */
 .brand {
   position: relative;
   top: -8px;
   left: 17px;
+}
+
+/* line 67, ../sass/screen.sass */
+nav {
+  margin-top: 35px;
+}
+/* line 69, ../sass/screen.sass */
+nav .menu li {
+  display: inline-block;
+  padding: 22px 20px 5px 20px;
+}
+/* line 72, ../sass/screen.sass */
+nav .menu li:first-child {
+  padding-left: 10px;
+}
+/* line 75, ../sass/screen.sass */
+nav .menu li a {
+  font-family: Tahoma, sans-serif;
+  font-size: 16px;
+  color: #f1f1f1;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+/* line 81, ../sass/screen.sass */
+nav .menu li a img {
+  padding-right: 10px;
 }

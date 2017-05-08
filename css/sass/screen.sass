@@ -33,9 +33,6 @@ ol, ul
 	-moz-box-sizing: border-box
 	box-sizing: border-box
 
-a, a:hover
-	color: #f1f1f1
-	text-decoration: none
 
 a:focus
 	outline: none
@@ -67,3 +64,19 @@ a:focus
 	position: relative
 	top: -8px
 	left: 17px
+nav 
+	margin-top: 35px
+	.menu li
+		display: inline-block
+		padding: 22px 20px 5px 20px
+		&:first-child
+			padding-left: 10px
+		&:last-child
+		a
+			font-family: $menu-liff
+			font-size: $menu-lifz
+			color: $menu-licol
+			text-transform: uppercase
+			letter-spacing: 1px
+			img
+				padding-right: 10px
