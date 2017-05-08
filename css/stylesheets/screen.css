@@ -52,3 +52,29 @@ a:focus {
   margin: 0 auto;
   width: 740px;
 }
+/* line 54, ../sass/screen.sass */
+.wrapper header {
+  margin-top: 49px;
+}
+
+/* line 57, ../sass/screen.sass */
+.main-logo-block {
+  margin: 0 auto;
+  width: 300px;
+}
+/* line 60, ../sass/screen.sass */
+.main-logo-block div {
+  display: inline-block;
+}
+
+/* line 63, ../sass/screen.sass */
+.logo-block {
+  margin-left: 33px;
+}
+
+/* line 66, ../sass/screen.sass */
+.brand {
+  position: relative;
+  top: -8px;
+  left: 17px;
+}
