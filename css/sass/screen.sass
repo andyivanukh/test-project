@@ -4,6 +4,9 @@ $menu-licol: #f1f1f1
 =bgcol($img, $type)
 	background: url(../../img/#{$img}.#{$type}) no-repeat -5px 0
 
+=bgimg($img, $type, $repeat: no-repeat, $x: 0, $y: 26px)
+	background: url(../../img/#{$img}-icon.#{$type}) $repeat $x $y
+
 =float($direction)
 	float: $direction
 
@@ -33,6 +36,7 @@ ol, ul
 	-moz-box-sizing: border-box
 	box-sizing: border-box
 
+
 a:focus
 	outline: none
 
@@ -47,5 +51,45 @@ a:focus
 .wrapper
 	margin: 0 auto
 	width: 740px
+	header
+		margin-top: 49px
 
+.main-logo-block
+	margin: 0 auto
+	width: 300px
+	div
+		display: inline-block
 
+.logo-block
+	margin-left: 23px
+
+.brand
+	position: relative
+	top: -8px
+	left: 17px
+nav 
+	margin-top: 35px
+	.menu li
+		display: inline-block
+		padding: 22px 56px 22px 28px
+		&:first-child
+			+bgimg(desktop, png)
+		&:nth-child(2)
+			+bgimg(twitter, png)
+		&:nth-child(3)
+			padding: 22px 49px 22px 24px
+			+bgimg(facebook, png, no-repeat, 3px, 24px)
+		&:nth-child(4)
+			padding: 22px 42px 22px 32px
+			+bgimg(vk, png, no-repeat, 13px, 27px)
+		&:last-child
+			padding: 22px 0 22px 42px
+			+bgimg(google, png, no-repeat, 18px, 25px)
+		a
+			font-family: $menu-liff
+			font-size: $menu-lifz
+			color: $menu-licol
+			text-transform: uppercase
+			letter-spacing: 1px
+			&:hover
+				text-decoration: none

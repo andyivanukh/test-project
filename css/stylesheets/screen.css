@@ -1,4 +1,4 @@
-/* line 13, ../sass/screen.sass */
+/* line 16, ../sass/screen.sass */
 body {
   min-width: 320px;
   height: 100%;
@@ -9,17 +9,17 @@ body {
   background-size: cover;
 }
 
-/* line 22, ../sass/screen.sass */
+/* line 25, ../sass/screen.sass */
 html {
   height: 100%;
 }
 
-/* line 25, ../sass/screen.sass */
+/* line 28, ../sass/screen.sass */
 ol, ul {
   list-style-type: none;
 }
 
-/* line 28, ../sass/screen.sass */
+/* line 31, ../sass/screen.sass */
 * {
   margin: 0;
   padding: 0;
@@ -29,20 +29,91 @@ ol, ul {
   box-sizing: border-box;
 }
 
-/* line 36, ../sass/screen.sass */
+/* line 40, ../sass/screen.sass */
 a:focus {
   outline: none;
 }
 
-/* line 39, ../sass/screen.sass */
+/* line 43, ../sass/screen.sass */
 .clearfix:after,
 .clearfix:before {
   content: "";
   display: table;
 }
 
-/* line 47, ../sass/screen.sass */
+/* line 51, ../sass/screen.sass */
 .wrapper {
   margin: 0 auto;
   width: 740px;
+}
+/* line 54, ../sass/screen.sass */
+.wrapper header {
+  margin-top: 49px;
+}
+
+/* line 57, ../sass/screen.sass */
+.main-logo-block {
+  margin: 0 auto;
+  width: 300px;
+}
+/* line 60, ../sass/screen.sass */
+.main-logo-block div {
+  display: inline-block;
+}
+
+/* line 63, ../sass/screen.sass */
+.logo-block {
+  margin-left: 23px;
+}
+
+/* line 66, ../sass/screen.sass */
+.brand {
+  position: relative;
+  top: -8px;
+  left: 17px;
+}
+
+/* line 70, ../sass/screen.sass */
+nav {
+  margin-top: 35px;
+}
+/* line 72, ../sass/screen.sass */
+nav .menu li {
+  display: inline-block;
+  padding: 22px 56px 22px 28px;
+}
+/* line 75, ../sass/screen.sass */
+nav .menu li:first-child {
+  background: url(../../img/desktop-icon.png) no-repeat 0 26px;
+}
+/* line 77, ../sass/screen.sass */
+nav .menu li:nth-child(2) {
+  background: url(../../img/twitter-icon.png) no-repeat 0 26px;
+}
+/* line 79, ../sass/screen.sass */
+nav .menu li:nth-child(3) {
+  padding: 22px 49px 22px 24px;
+  background: url(../../img/facebook-icon.png) no-repeat 3px 24px;
+}
+/* line 82, ../sass/screen.sass */
+nav .menu li:nth-child(4) {
+  padding: 22px 42px 22px 32px;
+  background: url(../../img/vk-icon.png) no-repeat 13px 27px;
+}
+/* line 85, ../sass/screen.sass */
+nav .menu li:last-child {
+  padding: 22px 0 22px 42px;
+  background: url(../../img/google-icon.png) no-repeat 18px 25px;
+}
+/* line 88, ../sass/screen.sass */
+nav .menu li a {
+  font-family: Tahoma, sans-serif;
+  font-size: 16px;
+  color: #f1f1f1;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+/* line 94, ../sass/screen.sass */
+nav .menu li a:hover {
+  text-decoration: none;
 }

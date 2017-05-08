@@ -6,7 +6,7 @@ $(function(){
 
 //===============================================================================================================================================================================================================
 
-    $('body').append('<div class="screen" style="background:url('+pxs_url+') no-repeat center top; position: absolute; left: 10px; right: 0; top: 0; height: '+pxs_height+'; z-index: 999999; pointer-events: none; display: none;"></div>')
+    $('body').append('<div class="screen" style="background:url('+pxs_url+') no-repeat center top; position: absolute; left: -9px; right: 0; top: 0; height: '+pxs_height+'; z-index: 999999; pointer-events: none; display: none;"></div>')
     $('body').append('<div class="screen_control" style="position: fixed; right: 20px; top: 20px; z-index: 999999;"><button class="screen_switch">On</button> </div>');
 
     $('.screen_switch').bind('click', function(){
