@@ -127,12 +127,51 @@ section {
 }
 /* line 103, ../sass/screen.sass */
 section .name-block {
-  padding-top: 45px;
+  margin-bottom: 22px;
+  padding-top: 40px;
 }
-/* line 105, ../sass/screen.sass */
+/* line 106, ../sass/screen.sass */
 section .name-block h1 {
-  margin-left: 70px;
+  margin-left: 65px;
   font-size: 24px;
   font-weight: bold;
   color: #0e4d66;
+  padding: 5px;
+}
+
+/* line 113, ../sass/screen.sass */
+.user-image {
+  width: 252px;
+  height: 192px;
+  float: left;
+}
+/* line 117, ../sass/screen.sass */
+.user-image img {
+  margin-left: 66px;
+}
+
+/* line 120, ../sass/screen.sass */
+.user-info {
+  width: 418px;
+  height: 192px;
+  float: left;
+}
+
+/* line 125, ../sass/screen.sass */
+table {
+  width: 370px;
+  border-collapse: collapse;
+}
+/* line 128, ../sass/screen.sass */
+table tr, table td {
+  padding: 0 0 16px 27px;
+}
+/* line 130, ../sass/screen.sass */
+table .tbl-title {
+  width: 33%;
+  font-weight: bold;
+}
+/* line 133, ../sass/screen.sass */
+table .tbl-answ {
+  width: 30%;
 }
