@@ -5,7 +5,7 @@ body {
   font-family: Tahoma, sans-serif;
   font-size: 14px;
   color: #0e4d66;
-  background: url(../../img/backgr.jpg) no-repeat -5px 0;
+  background: url(../../img/backgr.png) no-repeat -5px 0;
 }
 
 /* line 25, ../sass/screen.sass */
@@ -125,17 +125,19 @@ nav .menu li a:hover {
 /* line 97, ../sass/screen.sass */
 section {
   position: relative;
+  margin-bottom: 64px;
   width: 100%;
   height: 823px;
   background: #f3f3f3;
   border-radius: 10px;
+  box-shadow: 2px 8px 5px rgba(1, 1, 1, 0.5);
 }
-/* line 103, ../sass/screen.sass */
+/* line 105, ../sass/screen.sass */
 section .name-block {
   margin-bottom: 22px;
   padding-top: 40px;
 }
-/* line 106, ../sass/screen.sass */
+/* line 108, ../sass/screen.sass */
 section .name-block h1 {
   margin-left: 65px;
   font-size: 24px;
@@ -144,63 +146,174 @@ section .name-block h1 {
   padding: 5px;
 }
 
-/* line 113, ../sass/screen.sass */
+/* line 115, ../sass/screen.sass */
 .user-image {
   width: 252px;
   height: 192px;
   float: left;
 }
-/* line 117, ../sass/screen.sass */
+/* line 119, ../sass/screen.sass */
 .user-image img {
   margin-left: 66px;
 }
 
-/* line 120, ../sass/screen.sass */
+/* line 122, ../sass/screen.sass */
 .user-info {
   width: 418px;
   height: 192px;
   float: left;
 }
-/* line 124, ../sass/screen.sass */
+/* line 126, ../sass/screen.sass */
 .user-info table {
   width: 370px;
   border-collapse: collapse;
 }
-/* line 127, ../sass/screen.sass */
+/* line 129, ../sass/screen.sass */
 .user-info table tr, .user-info table td {
   padding: 0 0 16px 27px;
 }
-/* line 129, ../sass/screen.sass */
+/* line 131, ../sass/screen.sass */
 .user-info table .tbl-title {
   width: 33%;
   font-weight: bold;
 }
-/* line 132, ../sass/screen.sass */
+/* line 134, ../sass/screen.sass */
 .user-info table .tbl-answ {
   width: 30%;
 }
 
-/* line 135, ../sass/screen.sass */
+/* line 137, ../sass/screen.sass */
+.contact-info {
+  margin-bottom: 29px;
+}
+
+/* line 140, ../sass/screen.sass */
 .contact-table {
   margin: 24px 5px 5px 63px;
   width: 205px;
   height: 100px;
 }
-/* line 139, ../sass/screen.sass */
+/* line 144, ../sass/screen.sass */
 .contact-table caption {
   font-size: 18px;
   font-weight: bold;
 }
-/* line 142, ../sass/screen.sass */
+/* line 147, ../sass/screen.sass */
 .contact-table tr, .contact-table td {
   padding: 16px 0px 0px 6px;
   font-size: 14px;
 }
-/* line 145, ../sass/screen.sass */
+/* line 150, ../sass/screen.sass */
 .contact-table .tbl-titl1 {
   font-weight: bold;
 }
-/* line 147, ../sass/screen.sass */
+/* line 152, ../sass/screen.sass */
 .contact-table .tbl-answ2 {
   font-weight: normal;
+}
+
+/* line 155, ../sass/screen.sass */
+.about-myself {
+  margin-left: 70px;
+  width: 629px;
+}
+/* line 158, ../sass/screen.sass */
+.about-myself h2 {
+  margin-bottom: 21px;
+  font-size: 18px;
+}
+
+/* line 162, ../sass/screen.sass */
+.personal-qual {
+  margin-bottom: 20px;
+}
+/* line 164, ../sass/screen.sass */
+.personal-qual h4 {
+  margin-bottom: 11px;
+}
+/* line 166, ../sass/screen.sass */
+.personal-qual p {
+  margin-left: -1px;
+  line-height: 23px;
+}
+
+/* line 169, ../sass/screen.sass */
+.work-reward {
+  margin-bottom: 20px;
+}
+/* line 171, ../sass/screen.sass */
+.work-reward h4 {
+  margin-bottom: 11px;
+}
+/* line 173, ../sass/screen.sass */
+.work-reward p {
+  line-height: 22px;
+}
+
+/* line 176, ../sass/screen.sass */
+.else-info h4 {
+  margin-bottom: 12px;
+}
+
+/*FOOTER */
+/* line 181, ../sass/screen.sass */
+.line {
+  margin: 0 auto;
+  width: 1160px;
+  height: 1px;
+  background-color: #2B5D74;
+}
+
+/* line 186, ../sass/screen.sass */
+footer {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+/* line 189, ../sass/screen.sass */
+.phone-block {
+  float: left;
+}
+/* line 191, ../sass/screen.sass */
+.phone-block .number {
+  font-size: 24px;
+  color: #f2b01c;
+}
+/* line 194, ../sass/screen.sass */
+.phone-block .number + span {
+  margin-left: 9px;
+  font-size: 12px;
+  color: #fff;
+}
+
+/* line 198, ../sass/screen.sass */
+.webstudio-block {
+  float: right;
+}
+/* line 200, ../sass/screen.sass */
+.webstudio-block img {
+  position: relative;
+  top: -10px;
+  left: -4px;
+}
+
+/* line 204, ../sass/screen.sass */
+.w-studio {
+  display: inline-block;
+  position: relative;
+  top: -9px;
+  right: -5px;
+}
+/* line 209, ../sass/screen.sass */
+.w-studio .sitedev {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  color: #4083a9;
+  text-decoration: underline;
+}
+/* line 214, ../sass/screen.sass */
+.w-studio .studio {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  color: #f1f1f1;
 }
