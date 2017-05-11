@@ -40,6 +40,11 @@ a:focus {
   display: table;
 }
 
+/* line 48, ../sass/screen.sass */
+.clearfix:after {
+  clear: both;
+}
+
 /* line 51, ../sass/screen.sass */
 .wrapper {
   margin: 0 auto;
@@ -156,22 +161,46 @@ section .name-block h1 {
   height: 192px;
   float: left;
 }
-
-/* line 125, ../sass/screen.sass */
-table {
+/* line 124, ../sass/screen.sass */
+.user-info table {
   width: 370px;
   border-collapse: collapse;
 }
-/* line 128, ../sass/screen.sass */
-table tr, table td {
+/* line 127, ../sass/screen.sass */
+.user-info table tr, .user-info table td {
   padding: 0 0 16px 27px;
 }
-/* line 130, ../sass/screen.sass */
-table .tbl-title {
+/* line 129, ../sass/screen.sass */
+.user-info table .tbl-title {
   width: 33%;
   font-weight: bold;
 }
-/* line 133, ../sass/screen.sass */
-table .tbl-answ {
+/* line 132, ../sass/screen.sass */
+.user-info table .tbl-answ {
   width: 30%;
+}
+
+/* line 135, ../sass/screen.sass */
+.contact-table {
+  margin: 24px 5px 5px 63px;
+  width: 205px;
+  height: 100px;
+}
+/* line 139, ../sass/screen.sass */
+.contact-table caption {
+  font-size: 18px;
+  font-weight: bold;
+}
+/* line 142, ../sass/screen.sass */
+.contact-table tr, .contact-table td {
+  padding: 16px 0px 0px 6px;
+  font-size: 14px;
+}
+/* line 145, ../sass/screen.sass */
+.contact-table .tbl-titl1 {
+  font-weight: bold;
+}
+/* line 147, ../sass/screen.sass */
+.contact-table .tbl-answ2 {
+  font-weight: normal;
 }
